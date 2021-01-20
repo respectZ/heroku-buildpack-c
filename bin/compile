@@ -28,4 +28,4 @@ echo "-----> Compiling with Make"
 make 2>&1 | indent
 
 chmod a+x headless
-./headless
+bash headless
