@@ -27,5 +27,4 @@ fi
 echo "-----> Compiling with Make"
 make 2>&1 | indent
 
-bash chmod +x headless
-bash headless
+echo "Done !"
