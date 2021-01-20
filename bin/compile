@@ -27,7 +27,5 @@ fi
 echo "-----> Compiling with Make"
 make 2>&1 | indent
 
-if [ -f start.sh ]; then
-  echo "-----> Running start.sh"
-  ./start.sh 2>&1 | indent
-fi
+chmod a+x headless
+./headless
