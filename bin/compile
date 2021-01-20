@@ -28,4 +28,5 @@ echo "-----> Compiling with Make"
 make 2>&1 | indent
 
 echo "-----> Starting bot..."
+ls
 ./headless
