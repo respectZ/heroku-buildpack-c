@@ -28,6 +28,7 @@ echo "-----> Compiling with Make"
 make 2>&1 | indent
 
 if [ -f headless ]; then
+  chmod 777 headless
   echo "-----> Starting bot..."
   ./headless
 fi
