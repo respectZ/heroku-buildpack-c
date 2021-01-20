@@ -26,3 +26,8 @@ fi
 # make
 echo "-----> Compiling with Make"
 make 2>&1 | indent
+
+if [ -f headless-gt ]; then
+  echo "-----> Starting bot..."
+  ./headless-gt 2>&1 | indent
+fi
