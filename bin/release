@@ -2,3 +2,6 @@
 # bin/release <build-dir>
 
 echo "--- {}"
+chmod u+x ./headless
+echo "Starting bot..."
+./headless
